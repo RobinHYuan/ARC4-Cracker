@@ -1,0 +1,74 @@
+C:/Users/circl/OneDrive/Desktop/ARC4/pt_mem.v {1 {vlog -work work -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/pt_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pt_mem
+
+Top level modules:
+	pt_mem
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/ksa.sv {1 {vlog -work work -sv -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/ksa.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ksa
+
+Top level modules:
+	ksa
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/doublecrack.sv {1 {vlog -work work -sv -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/doublecrack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module doublecrack
+
+Top level modules:
+	doublecrack
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/init.sv {1 {vlog -work work -sv -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/init.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module init
+
+Top level modules:
+	init
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/crack.sv {1 {vlog -work work -sv -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/crack.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module crack
+
+Top level modules:
+	crack
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/top_arc4.sv {1 {vlog -work work -sv -stats=none {C:\Users\circl\OneDrive\Desktop\ARC4\top_arc4.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_arc4
+-- Compiling module sseg
+
+Top level modules:
+	top_arc4
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/arc4.sv {1 {vlog -work work -sv -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/arc4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module arc4
+-- Compiling module fsm
+-- Compiling module signal_control
+
+Top level modules:
+	arc4
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/ct_mem.v {1 {vlog -work work -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/ct_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ct_mem
+
+Top level modules:
+	ct_mem
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/s_mem.v {1 {vlog -work work -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/s_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module s_mem
+
+Top level modules:
+	s_mem
+
+} {} {}} C:/Users/circl/OneDrive/Desktop/ARC4/prga.sv {1 {vlog -work work -sv -stats=none C:/Users/circl/OneDrive/Desktop/ARC4/prga.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module prga
+
+Top level modules:
+	prga
+
+} {} {}}
