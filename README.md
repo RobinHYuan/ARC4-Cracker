@@ -34,4 +34,9 @@ top_arc4 (top module)
 11. Halt and Indicate the result using LEDR and HEX displays.
 
 ### 2.3 Result Display:
-If the key found is 'h123456 then the displays should read “123456” left-to-right when the board is turned so that the switch bank and the button keys are towards you. The displays should be blank while the circuit is computing (i.e., you should only set them after you have found a key), and should display “------” if you searched through the entire key space but no possible 24-bit key resulted in a cracked message (as defined above). 
+If the key found is 'h123456 then the displays should read “123456” left-to-right when the board is turned so that the switch bank and the button keys are towards you. The displays should be blank while the circuit is computing (i.e., you should only set them after you have found a key), and should display “------” if you searched through the entire key space but no possible 24-bit key resulted in a cracked message (as defined above). Quartus in-system memory content editor will be used to read the plaintext stored in pt_mem.
+
+## 3 Demo:
+The message, "Matou Sakura is the best girl*" is encrypted using key "0x114514". Note that the first character is not part of the message; it is used to specify the message length. 
+Link: https://1drv.ms/v/s!AtvCAWQaIVxVje4tce8H_IUr9wGu5Q?e=FEHwkU
+
