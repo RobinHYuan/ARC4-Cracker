@@ -1,8 +1,8 @@
 # ARC4-Cracker
 ## 1 Introduction: 
 This is an ARC4 Cracking Circuit that is implemented using SystemVerilog and DE1-SoC to decrypt ciphers with a key of smaller than or equal to 3-byte of length. 
-## 2 Overview (Hierarchical Design):
-### Module Instantiation Tree
+## 2 Overview:
+### 2.1 Module Instantiation Tree (Hierarchical):
 ```bash
 
 top_arc4 (top module)
@@ -21,4 +21,16 @@ top_arc4 (top module)
 └── ct_mem [ct](Ciphertext memorry modlue)
 
 ```
+### 2.2 FSM Algorithm Overview:
+1. Load the ciphertext to be cracked into ct_mem[ct]
+2. Press Key 3 to rest
+3. Copy the memoerry content from ct_mem[ct] to both ct_mem [c1,c2] submodules respectively
+4. Enable both crack c1 and c2 modules [C1 will search thru all even number keys while C2 will go thru all odd number possibilities]
+5. C1 and C2 will follow the identical steps from 6-8
+6. Initialize the s_mem using module init
+7. Perform the KSA using module ksa
+8. Implement PRGA to find the plaintext（If the resulting number from any PRGA operation is a non-ascii character (PRGA is performed on every character stored in ct_mem), terminate the current cracking process immediately, increment the key number by 2 and go back to step 6 unless all keys have been searched then proceed to step 9 ）
+10. Depending on whether there is a solution and which crack module has cracked the key, we will copy the plaintext from the corresponding pt_mem submodule to the main pt_meme module, pt_mem[pt].
+11. Halt and Indicate the result using LEDR and HEX displays.
+
 
