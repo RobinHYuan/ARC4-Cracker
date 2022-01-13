@@ -33,4 +33,5 @@ top_arc4 (top module)
 10. Depending on whether there is a solution and which crack module has cracked the key, we will copy the plaintext from the corresponding pt_mem submodule to the main pt_meme module, pt_mem[pt].
 11. Halt and Indicate the result using LEDR and HEX displays.
 
-
+### 2.3 Result Display:
+If the key found is 'h123456 then the displays should read “123456” left-to-right when the board is turned so that the switch bank and the button keys are towards you. The displays should be blank while the circuit is computing (i.e., you should only set them after you have found a key), and should display “------” if you searched through the entire key space but no possible 24-bit key resulted in a cracked message (as defined above). T
